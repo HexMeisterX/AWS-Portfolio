@@ -19,3 +19,5 @@ Amazon EC2 changes the economics of computing by allowing you to pay only for ca
 <img width="365" height="82" alt="Screenshot 2026-06-18 025754" src="https://github.com/user-attachments/assets/9d4a50b4-6df9-4a7a-9ea9-2a29570e25c4" />
 
 <img width="699" height="57" alt="Screenshot 2026-06-18 030115" src="https://github.com/user-attachments/assets/5edb8a68-915b-48e1-b0c0-6a5a51ed3d1c" />
+
+<ins>**What did I learn**<ins>
