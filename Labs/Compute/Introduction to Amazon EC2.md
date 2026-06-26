@@ -22,6 +22,7 @@ Amazon EC2 changes the economics of computing by allowing you to pay only for ca
 
 
 <ins>**What did I learn**<ins>
-- To start an EC2 Instance
+- To create an EC2 Instance
+- To start and stop an Instance
 - To set up Security Group for the Instance
 - To change or swap between Instance types
