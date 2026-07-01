@@ -12,3 +12,11 @@ The following diagram shows the architecture of the sales analysis report soluti
 - Create Lambda functions that extract data from database, and send reports to user.
 - Deploy and test a Lambda function that is initiated based on a schedule and that invokes another function.
 - Use CloudWatch logs to troubleshoot any issues running a Lambda function.
+
+<ins>**What did I learn**<ins>
+- To create a Layer
+- To create a Function
+- Add the Layer to the Function
+- Set up the the Network for the Function
+- Edit a Security Group Inbound to allow Port needed
+- Confirmed Function is working correctly with a test.
