@@ -1,4 +1,7 @@
 # AWS-Portfolio
+
+(Placeholder Intro, must still edit)
+
 Displaying my skills in AWS
 
 My Restart Graduate Journey
