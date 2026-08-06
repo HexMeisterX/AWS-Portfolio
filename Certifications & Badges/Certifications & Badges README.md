@@ -1,4 +1,4 @@
-#<ins>**Certificates & Badges**<ins>
+# <ins>**Certificates & Badges**<ins>
 
 List of all Certificats & Badges for a quick look:
 - AWS SimuLearn Cloud Computing Essentials
