@@ -17,7 +17,7 @@
 - No Centralized Data
 - Scaling Costs
 
-**Solution: Migrate to AWS**
+### **Solution: Migrate to AWS**
 
 <ins>AWS Benefits:<ins>
 - Amazon S3: To host your new static website
