@@ -1,6 +1,6 @@
 # <ins>**Certificates & Badges**<ins>
 
-List of all Certificats & Badges for a quick look:
+List of all Certificates & Badges for a quick look:
 - AWS SimuLearn Cloud Computing Essentials
 - AWS SimuLearn Cloud Economics
 - AWS SimuLearn Cloud First Steps
