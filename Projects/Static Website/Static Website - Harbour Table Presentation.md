@@ -4,7 +4,7 @@ Structure:
 
 <img width="794" height="389" alt="Screenshot 2026-07-01 050826" src="https://github.com/user-attachments/assets/2d594117-3763-491f-ab35-350a3c40e677" />
 
-<br>
+&nbsp;
 
 <ins>**Our Static Website - Harbour Table**<ins>
 
