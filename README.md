@@ -1,8 +1,8 @@
 # <ins>**My AWS-Portfolio**<ins>
 
-(Placeholder Intro, must still edit)
+**My AWS Journey**
 
-Displaying my skills in AWS
+(PlaceHolder Intro)
 
 My Restart Graduate Journey
 The Restart program is designed to take you from a beginner in tech to a confident,
