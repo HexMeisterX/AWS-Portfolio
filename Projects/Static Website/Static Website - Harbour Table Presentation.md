@@ -12,6 +12,9 @@
 
 &nbsp;
 
-<ins>What migrating to AWS has solved:<ins>
-- System is entirely cloud based
-- 
+<ins>Challenges:<ins>
+- Manual Booking System
+- No Centralized Data
+- Scaling Costs
+
+Solution: Migrate to AWS
