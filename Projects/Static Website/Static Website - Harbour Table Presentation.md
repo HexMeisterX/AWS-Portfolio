@@ -17,9 +17,11 @@
 - No Centralized Data
 - Scaling Costs
 
-### **Solution: Migrate to AWS**
+### **Solution: Migrate to AWS!**
 
 <ins>AWS Benefits:<ins>
 - Amazon S3: To host your new static website
 - AWS Cognito: To manage customer sign-ins and provides secure access to your website
-- Amazon RDS/DynamoDB: Centralizes all customer data
+- Amazon RDS/DynamoDB: Centralizes all customer data, bookings, and orders in one reliable database
+
+<ins>More AWS Benefits:<ins>
