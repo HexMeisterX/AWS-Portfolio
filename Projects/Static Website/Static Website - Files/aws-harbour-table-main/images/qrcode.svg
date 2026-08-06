@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Outer border -->
+  <rect width="100" height="100" rx="10" fill="#FFFFFF" stroke="#C5A880" stroke-width="1.5"/>
+  
+  <!-- Finding patterns (Three large corners) -->
+  <!-- Top Left -->
+  <rect x="8" y="8" width="22" height="22" rx="3" fill="#0A192F" />
+  <rect x="12" y="12" width="14" height="14" rx="1" fill="#FFFFFF" />
+  <rect x="15" y="15" width="8" height="8" rx="0.5" fill="#D4AF37" />
+
+  <!-- Top Right -->
+  <rect x="70" y="8" width="22" height="22" rx="3" fill="#0A192F" />
+  <rect x="74" y="12" width="14" height="14" rx="1" fill="#FFFFFF" />
+  <rect x="77" y="15" width="8" height="8" rx="0.5" fill="#D4AF37" />
+
+  <!-- Bottom Left -->
+  <rect x="8" y="70" width="22" height="22" rx="3" fill="#0A192F" />
+  <rect x="12" y="74" width="14" height="14" rx="1" fill="#FFFFFF" />
+  <rect x="15" y="77" width="8" height="8" rx="0.5" fill="#D4AF37" />
+
+  <!-- Small alignment pattern (Bottom Right area) -->
+  <rect x="74" y="74" width="10" height="10" rx="1.5" fill="#0A192F" />
+  <rect x="77" y="77" width="4" height="4" fill="#FFFFFF" />
+  <rect x="78" y="78" width="2" height="2" fill="#D4AF37" />
+
+  <!-- Mock data dots (gold and navy scattered representing data) -->
+  <!-- Col 1-3 -->
+  <rect x="34" y="8" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="42" y="8" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="50" y="8" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="58" y="8" width="4" height="8" rx="1" fill="#0A192F" />
+  
+  <rect x="34" y="16" width="8" height="4" rx="1" fill="#D4AF37" />
+  <rect x="46" y="16" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="54" y="16" width="8" height="4" rx="1" fill="#0A192F" />
+
+  <rect x="34" y="24" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="42" y="24" width="8" height="4" rx="1" fill="#D4AF37" />
+  <rect x="54" y="24" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="62" y="24" width="4" height="4" rx="1" fill="#0A192F" />
+
+  <!-- Center-ish rows -->
+  <rect x="8" y="34" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="20" y="34" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="28" y="34" width="4" height="8" rx="1" fill="#0A192F" />
+  <rect x="36" y="34" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="48" y="34" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="56" y="34" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="68" y="34" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="76" y="34" width="4" height="8" rx="1" fill="#D4AF37" />
+  <rect x="84" y="34" width="8" height="4" rx="1" fill="#0A192F" />
+
+  <rect x="8" y="42" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="16" y="42" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="24" y="42" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="36" y="42" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="44" y="42" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="56" y="42" width="4" height="8" rx="1" fill="#0A192F" />
+  <rect x="64" y="42" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="72" y="42" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="88" y="42" width="4" height="8" rx="1" fill="#0A192F" />
+
+  <rect x="8" y="50" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="20" y="50" width="4" height="8" rx="1" fill="#D4AF37" />
+  <rect x="28" y="50" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="36" y="50" width="8" height="4" rx="1" fill="#D4AF37" />
+  <rect x="48" y="50" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="64" y="50" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="76" y="50" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="84" y="50" width="4" height="4" rx="1" fill="#D4AF37" />
+
+  <rect x="8" y="58" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="16" y="58" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="28" y="58" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="36" y="58" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="44" y="58" width="4" height="8" rx="1" fill="#0A192F" />
+  <rect x="52" y="58" width="8" height="4" rx="1" fill="#D4AF37" />
+  <rect x="64" y="58" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="72" y="58" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="84" y="58" width="8" height="4" rx="1" fill="#D4AF37" />
+
+  <!-- Bottom Data Section -->
+  <rect x="34" y="66" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="46" y="66" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="54" y="66" width="4" height="8" rx="1" fill="#0A192F" />
+  <rect x="62" y="66" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="74" y="66" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="82" y="66" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="88" y="66" width="4" height="4" rx="1" fill="#0A192F" />
+
+  <rect x="34" y="74" width="4" height="8" rx="1" fill="#D4AF37" />
+  <rect x="42" y="74" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="50" y="74" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="62" y="74" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="68" y="74" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="88" y="74" width="4" height="4" rx="1" fill="#0A192F" />
+
+  <rect x="38" y="82" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="50" y="82" width="4" height="4" rx="1" fill="#D4AF37" />
+  <rect x="58" y="82" width="8" height="4" rx="1" fill="#0A192F" />
+  <rect x="68" y="82" width="4" height="8" rx="1" fill="#0A192F" />
+  <rect x="76" y="82" width="8" height="4" rx="1" fill="#D4AF37" />
+  <rect x="88" y="82" width="4" height="4" rx="1" fill="#0A192F" />
+
+  <rect x="34" y="88" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="42" y="88" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="48" y="88" width="8" height="4" rx="1" fill="#D4AF37" />
+  <rect x="58" y="88" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="76" y="88" width="4" height="4" rx="1" fill="#0A192F" />
+  <rect x="84" y="88" width="4" height="4" rx="1" fill="#D4AF37" />
+
+  <!-- Center Brand Logo Backdrop -->
+  <rect x="40" y="40" width="20" height="20" rx="4" fill="#FFFFFF" stroke="#C5A880" stroke-width="1.5"/>
+  <!-- Mini Anchor Emblem in center -->
+  <circle cx="50" cy="45" r="1.5" fill="none" stroke="#0A192F" stroke-width="1" />
+  <line x1="50" y1="46.5" x2="50" y2="54" stroke="#0A192F" stroke-width="1.2" />
+  <line x1="46" y1="48" x2="54" y2="48" stroke="#0A192F" stroke-width="1" />
+  <path d="M 44 51 Q 50 56, 56 51" fill="none" stroke="#0A192F" stroke-width="1.2" />
+</svg>
