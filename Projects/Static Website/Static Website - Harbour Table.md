@@ -1,4 +1,4 @@
-<ins>**Creating a Static Website in S3**<ins>
+# <ins>**Creating a Static Website in S3**<ins>
 
 Structure:
 
