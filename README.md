@@ -1,5 +1,11 @@
 # <ins>**My AWS-Portfolio**<ins>
 
+Who I am?
+
+What am I doing?
+
+What you going to find in each folder?
+
 <ins>**My AWS Journey**<ins>
 
 **Week 1** - We started with Cloud Computing basics, and also learning some of the many roles available in AWS
