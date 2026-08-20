@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Register a customer account with Harbour Table to track bookings, online order histories, and edit your profile.">
+  <meta name="keywords" content="harbour table register, create account restaurant waterfront">
+  <link rel="canonical" href="https://yourwebsite.com/register.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com/register.html">
+  <meta property="og:title" content="Create an Account - Harbour Table">
+  <meta property="og:description" content="Sign up for a Harbour Table account.">
+  <meta property="og:image" content="images/interior.png">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Customer Registration | Harbour Table Seafood & Grill</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .checkbox-group {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-top: 15px;
+    }
+    .checkbox-input {
+      accent-color: var(--color-gold);
+      width: 18px;
+      height: 18px;
+      margin-top: 2px;
+      cursor: pointer;
+    }
+    .checkbox-label {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.4;
+      cursor: pointer;
+    }
+    .checkbox-label a {
+      color: var(--color-gold);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- STICKY HEADER -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo-wrapper">
+        <img src="images/logo.svg" alt="Harbour Table Logo" class="logo-img">
+        <span class="logo-text">Harbour<span>Table</span></span>
+      </a>
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="menu.html" class="nav-link">Menu</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="booking.html" class="nav-link">Book</a>
+        <a href="order.html" class="nav-link">Order</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="login.html" class="nav-link active" id="nav-login-item">Login</a>
+        <a href="profile.html" class="nav-link" id="nav-profile-item" style="display: none;"><span id="nav-user-text">Profile</span></a>
+      </nav>
+      <div class="nav-controls">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme">
+          <svg class="moon-icon" viewBox="0 0 24 24"><path d="M12.3 22h-.1c-5.5 0-10-4.5-10-10 0-4.8 3.5-8.9 8.2-9.8.5-.1 1 .2 1.2.7.2.5 0 1.1-.4 1.4-2.8 1.9-4.3 5.3-3.6 8.7.7 3.5 3.6 6.3 7.1 7 3.4.7 6.8-.8 8.7-3.6.3-.4.9-.6 1.4-.4.5.2.8.7.7 1.2-.9 4.7-5 8.2-9.8 8.2l-3.4-.2zm-1.8-17.6C7.3 5.6 5 8.6 5 12c0 3.9 3.1 7 7 7 .5 0 1 0 1.5-.1-1.9-2.1-2.9-4.9-2.7-7.7.2-2.3 1.1-4.5 2.7-6.2l-3 .4z"/></svg>
+          <svg class="sun-icon" viewBox="0 0 24 24"><path d="M12 18c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm0-10c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm1-5V1c0-.6-.4-1-1-1s-1 .4-1 1v2c0 .6.4 1 1 1s1-.4 1-1zm0 18v2c0 .6-.4 1-1 1s-1-.4-1-1v-2c0-.6.4-1 1-1s1-.4 1-1zm10-9h-2c-.6 0-1 .4-1 1s.4 1 1 1h2c.6 0 1-.4 1-1s-.4-1-1-1zM5 12H3c-.6 0-1 .4-1 1s.4 1 1 1h2c.6 0 1-.4 1-1s-.4-1-1-1zm14.8-6.4l-1.4-1.4c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l1.4 1.4c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4zm-14 14l-1.4-1.4c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l1.4 1.4c.4.4.4 1 0 1.4-.2.2-.5.3-.7.3-.2 0-.5-.1-.7-.3zm14 0l1.4-1.4c.4-.4.4-1 0-1.4s-1-.4-1.4 0l-1.4 1.4c-.4.4-.4 1 0 1.4.2.2.5.3.7.3.2 0 .5-.1.7-.3zm-14-14l1.4-1.4c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-1.4 1.4c-.2.2-.5.3-.7.3-.2 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4z"/></svg>
+        </button>
+        <a href="booking.html" class="btn btn-primary" style="padding: 8px 20px; font-size: 0.85rem;">Book</a>
+        <button class="hamburger" aria-label="Open mobile menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- INNER PAGE HERO -->
+  <section class="inner-hero">
+    <div class="inner-hero-content">
+      <h1 class="inner-hero-title">Customer Registration</h1>
+      <div class="inner-hero-breadcrumbs">
+        <a href="index.html">Home</a> &bull; <span>Register</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGISTRATION FORM SECTION -->
+  <section class="section-padding container reveal">
+    <div class="text-center">
+      <h2 class="section-title">Create Account</h2>
+      <p class="section-subtitle">Unlock personalized dining histories</p>
+    </div>
+
+    <div class="form-card" style="max-width: 520px;">
+      <form id="register-form" novalidate>
+        <div class="form-grid">
+          <!-- First Name -->
+          <div class="form-group">
+            <label for="reg-firstname" class="form-label">First Name *</label>
+            <input type="text" id="reg-firstname" class="form-input" placeholder="E.g., John" required>
+          </div>
+
+          <!-- Last Name -->
+          <div class="form-group">
+            <label for="reg-lastname" class="form-label">Last Name *</label>
+            <input type="text" id="reg-lastname" class="form-input" placeholder="E.g., Smith" required>
+          </div>
+
+          <!-- Email -->
+          <div class="form-group form-col-full">
+            <label for="reg-email" class="form-label">Email Address *</label>
+            <input type="email" id="reg-email" class="form-input" placeholder="name@domain.com" required>
+          </div>
+
+          <!-- Password -->
+          <div class="form-group form-col-full">
+            <label for="reg-password" class="form-label">Password * (min. 6 characters)</label>
+            <input type="password" id="reg-password" class="form-input" placeholder="••••••••" required>
+          </div>
+
+          <!-- Terms -->
+          <div class="checkbox-group form-col-full">
+            <input type="checkbox" id="reg-terms" class="checkbox-input" required>
+            <label for="reg-terms" class="checkbox-label">
+              I agree to the Harbour Table <a href="terms.html">Terms & Conditions</a> and acknowledge the <a href="privacy.html">Privacy Policy</a>.
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary form-submit-btn">Register & Log In</button>
+      </form>
+
+      <p class="form-info-text">
+        Already have an account? <a href="login.html">Sign In here</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col-brand">
+        <a href="index.html" class="logo-wrapper" style="margin-bottom: 20px; display: inline-flex;">
+          <img src="images/logo.svg" alt="Harbour Table Logo" class="logo-img" style="width: 40px; height: 40px;">
+          <span class="logo-text" style="color: #FFFFFF;">Harbour<span>Table</span></span>
+        </a>
+        <p class="footer-desc">Exceptional seafood and premium grill dining at the edge of the Atlantic harbor. A Cape Town classic.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="Instagram"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+          <a href="#" class="social-link" aria-label="Facebook"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+          <a href="#" class="social-link" aria-label="TikTok"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.02 1.63 4.18 1.12 1.25 2.7 2.05 4.34 2.25v3.83c-1.85-.05-3.66-.67-5.13-1.82-.08 2.53-.02 5.06-.05 7.59-.06 1.83-.54 3.73-1.69 5.17-1.43 1.76-3.76 2.77-6.04 2.76-2.27.02-4.57-.89-6.04-2.61-1.63-1.92-2.19-4.71-1.42-7.13.71-2.29 2.54-4.22 4.88-4.9 1.44-.42 2.97-.29 4.31.39v4.06c-.84-.52-1.89-.66-2.82-.36-1.12.35-2.02 1.34-2.26 2.49-.33 1.5.42 3.12 1.78 3.81 1.2.61 2.76.4 3.74-.46.74-.65 1.12-1.62 1.1-2.59.04-4.47.01-8.94.02-13.41-.01-.35.03-.71-.02-1.06z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-col-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="menu.html">Our Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="booking.html">Book a Table</a></li>
+          <li><a href="order.html">Order Online</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-col-title">Contact Us</h4>
+        <ul class="footer-contact">
+          <li><span>📍</span><span>Shop 102, Victoria Wharf,<br>V&A Waterfront, Cape Town</span></li>
+          <li><span>📞</span><span>+27 21 423 0000</span></li>
+          <li><span>✉️</span><span>info@harbourtable.co.za</span></li>
+        </ul>
+      </div>
+      <div class="footer-qr-container">
+        <h4 class="footer-col-title">Digital Menu</h4>
+        <a href="menu.html" class="footer-qr-wrapper">
+          <img src="images/qrcode.svg" alt="Scan to View Digital Menu" class="footer-qr-img">
+        </a>
+        <span class="footer-qr-label">Scan to View Menu</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Harbour Table Seafood & Grill. All rights reserved. Cape Town, SA.</p>
+      <div class="footer-legal-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4.438l-10 10 1.406 1.406 8.594-8.594 8.594 8.594 1.406-1.406-10-10z"/></svg>
+  </button>
+  <script src="script.js"></script>
+</body>
+</html>

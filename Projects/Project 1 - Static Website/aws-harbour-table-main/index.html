@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- SEO & Standard Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Harbour Table - Premium Seafood & Grill at V&A Waterfront, Cape Town. Indulge in fresh local seafood, award-winning steaks, and signature cocktails. Book your table online.">
+  <meta name="keywords" content="harbour table, waterfront restaurant, cape town restaurants, seafood waterfront, steaks cape town, luxury dining cape town, aws static hosting">
+  <meta name="author" content="Harbour Table">
+  <link rel="canonical" href="https://yourwebsite.com/index.html">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com/index.html">
+  <meta property="og:title" content="Harbour Table | Fresh Seafood & Exceptional Dining in Cape Town">
+  <meta property="og:description" content="Savor Cape Town's finest Atlantic seafood and steaks at the V&A Waterfront. Beautiful harbor views and elegant fine dining.">
+  <meta property="og:image" content="images/hero_bg.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://yourwebsite.com/index.html">
+  <meta property="twitter:title" content="Harbour Table | Seafood & Grill Cape Town">
+  <meta property="twitter:description" content="Savor Cape Town's finest Atlantic seafood and steaks at the V&A Waterfront. Beautiful harbor views and elegant fine dining.">
+  <meta property="twitter:image" content="images/hero_bg.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <title>Harbour Table | Fresh Seafood. Exceptional Dining.</title>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- STICKY HEADER -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo-wrapper">
+        <img src="images/logo.svg" alt="Harbour Table Logo" class="logo-img">
+        <span class="logo-text">Harbour<span>Table</span></span>
+      </a>
+
+      <!-- NAVIGATION LINKS -->
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="menu.html" class="nav-link">Menu</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="booking.html" class="nav-link">Book</a>
+        <a href="order.html" class="nav-link">Order</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        
+        <!-- Auth Status Items -->
+        <a href="login.html" class="nav-link" id="nav-login-item">Login</a>
+        <a href="profile.html" class="nav-link" id="nav-profile-item" style="display: none;">
+          <span id="nav-user-text">Profile</span>
+        </a>
+      </nav>
+
+      <!-- RIGHT SIDE NAV CONTROLS -->
+      <div class="nav-controls">
+        <!-- Dark Mode Switcher -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme">
+          <!-- Moon Icon -->
+          <svg class="moon-icon" viewBox="0 0 24 24"><path d="M12.3 22h-.1c-5.5 0-10-4.5-10-10 0-4.8 3.5-8.9 8.2-9.8.5-.1 1 .2 1.2.7.2.5 0 1.1-.4 1.4-2.8 1.9-4.3 5.3-3.6 8.7.7 3.5 3.6 6.3 7.1 7 3.4.7 6.8-.8 8.7-3.6.3-.4.9-.6 1.4-.4.5.2.8.7.7 1.2-.9 4.7-5 8.2-9.8 8.2l-3.4-.2zm-1.8-17.6C7.3 5.6 5 8.6 5 12c0 3.9 3.1 7 7 7 .5 0 1 0 1.5-.1-1.9-2.1-2.9-4.9-2.7-7.7.2-2.3 1.1-4.5 2.7-6.2l-3 .4z"/></svg>
+          <!-- Sun Icon -->
+          <svg class="sun-icon" viewBox="0 0 24 24"><path d="M12 18c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm0-10c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm1-5V1c0-.6-.4-1-1-1s-1 .4-1 1v2c0 .6.4 1 1 1s1-.4 1-1zm0 18v2c0 .6-.4 1-1 1s-1-.4-1-1v-2c0-.6.4-1 1-1s1-.4 1-1zm10-9h-2c-.6 0-1 .4-1 1s.4 1 1 1h2c.6 0 1-.4 1-1s-.4-1-1-1zM5 12H3c-.6 0-1 .4-1 1s.4 1 1 1h2c.6 0 1-.4 1-1s-.4-1-1-1zm14.8-6.4l-1.4-1.4c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l1.4 1.4c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4zm-14 14l-1.4-1.4c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l1.4 1.4c.4.4.4 1 0 1.4-.2.2-.5.3-.7.3-.2 0-.5-.1-.7-.3zm14 0l1.4-1.4c.4-.4.4-1 0-1.4s-1-.4-1.4 0l-1.4 1.4c-.4.4-.4 1 0 1.4.2.2.5.3.7.3.2 0 .5-.1.7-.3zm-14-14l1.4-1.4c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-1.4 1.4c-.2.2-.5.3-.7.3-.2 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4z"/></svg>
+        </button>
+
+        <a href="booking.html" class="btn btn-primary" style="padding: 8px 20px; font-size: 0.85rem;">Book</a>
+        
+        <button class="hamburger" aria-label="Open mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO BANNER -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-slogan">Fresh Seafood. Exceptional Dining.</span>
+      <h1 class="hero-title">Experience Harbour Table</h1>
+      <div class="hero-buttons">
+        <a href="booking.html" class="btn btn-primary">Book a Table</a>
+        <a href="order.html" class="btn btn-white">Order Online</a>
+        <a href="menu.html" class="btn btn-outline" style="border-color: #FFFFFF; color: #FFFFFF;">View Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE HARBOUR TABLE Section -->
+  <section class="section-padding container text-center reveal">
+    <h2 class="section-title">Why Choose Harbour Table?</h2>
+    <p class="section-subtitle">Excellence in every detail</p>
+    
+    <div class="why-choose-grid">
+      <!-- Card 1 -->
+      <div class="info-card">
+        <span class="info-card-icon">🌊</span>
+        <h3 class="info-card-title">Fresh Local Seafood</h3>
+        <p class="info-card-text">Sourced daily from Cape Town's cold Atlantic waters. Supported by sustainable fishing initiatives to protect our rich marine heritage.</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="info-card">
+        <span class="info-card-icon">👨‍🍳</span>
+        <h3 class="info-card-title">Award Winning Chefs</h3>
+        <p class="info-card-text">Our culinary masters transform locally inspired ingredients into gourmet masterpieces, combining modern technique with traditional flair.</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="info-card">
+        <span class="info-card-icon">🌅</span>
+        <h3 class="info-card-title">Waterfront Views</h3>
+        <p class="info-card-text">Dine elegantly on the edge of the V&A Waterfront. Relax to the sound of harbor waves with Table Mountain providing the ultimate scenic backdrop.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TODAY'S SPECIALS Section -->
+  <section class="section-padding container reveal">
+    <div class="text-center">
+      <h2 class="section-title">Today's Specials</h2>
+      <p class="section-subtitle">Specially curated by our Executive Chef</p>
+    </div>
+    
+    <div class="specials-grid">
+      <!-- Special 1 -->
+      <div class="dish-card">
+        <div class="dish-img-wrapper">
+          <img src="images/seafood_platter.png" alt="Seafood Platter" class="dish-img">
+          <span class="dish-badge">Ocean Fresh</span>
+        </div>
+        <div class="dish-info">
+          <div class="dish-header">
+            <h3 class="dish-title">V&A Seafood Platter</h3>
+            <span class="dish-price">R550</span>
+          </div>
+          <p class="dish-desc">A premium feast of grilled lobster tail, fresh Saldanha bay oysters, wild tiger prawns, garlic mussels, and savory calamari served with lemon herb butter.</p>
+          <div class="dish-action">
+            <a href="order.html?item=Seafood+Platter" class="btn btn-outline" style="padding: 8px 18px; font-size: 0.8rem;">Order Quick</a>
+            <a href="menu.html" style="font-size: 0.85rem; color: var(--color-gold); font-weight: 600;">Full Menu &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Special 2 -->
+      <div class="dish-card">
+        <div class="dish-img-wrapper">
+          <img src="images/wagyu_steak.png" alt="Wagyu Steak" class="dish-img">
+          <span class="dish-badge">Premium Cut</span>
+        </div>
+        <div class="dish-info">
+          <div class="dish-header">
+            <h3 class="dish-title">Karan Beef Wagyu Ribeye</h3>
+            <span class="dish-price">R480</span>
+          </div>
+          <p class="dish-desc">300g premium local Wagyu ribeye steak, flame-grilled to perfection, seasoned with Maldon salt flakes, served with truffle butter and thick rustic fries.</p>
+          <div class="dish-action">
+            <a href="order.html?item=Wagyu+Steak" class="btn btn-outline" style="padding: 8px 18px; font-size: 0.8rem;">Order Quick</a>
+            <a href="menu.html" style="font-size: 0.85rem; color: var(--color-gold); font-weight: 600;">Full Menu &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Special 3 -->
+      <div class="dish-card">
+        <div class="dish-img-wrapper">
+          <img src="images/gourmet_burger.png" alt="Gourmet Burger" class="dish-img">
+          <span class="dish-badge">Guest Favourite</span>
+        </div>
+        <div class="dish-info">
+          <div class="dish-header">
+            <h3 class="dish-title">The Harbour Burger</h3>
+            <span class="dish-price">R195</span>
+          </div>
+          <p class="dish-desc">House-ground premium beef chuck patty, double Swiss cheese, dark caramelized onions, artisan truffle mayonnaise, and microgreens on a toasted brioche bun.</p>
+          <div class="dish-action">
+            <a href="order.html?item=Harbour+Burger" class="btn btn-outline" style="padding: 8px 18px; font-size: 0.8rem;">Order Quick</a>
+            <a href="menu.html" style="font-size: 0.85rem; color: var(--color-gold); font-weight: 600;">Full Menu &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOMER REVIEWS Section -->
+  <section class="section-padding testimonials reveal">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-title">Customer Reviews</h2>
+        <p class="section-subtitle">What our guests say about us</p>
+      </div>
+
+      <div class="testimonials-carousel">
+        <!-- Review 1 -->
+        <div class="testimonial-slide">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"The seafood platter was absolute perfection, and dining right on the water overlooking Table Mountain at sunset was unforgettable. Exceptional hospitality!"</p>
+          <span class="testimonial-author">&mdash; Elena G., Cape Town</span>
+        </div>
+        <!-- Review 2 -->
+        <div class="testimonial-slide">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Incredibly flavorful steaks and signature cocktails that blew us away. The dark navy and gold decor is extremely elegant. A Cape Town gem!"</p>
+          <span class="testimonial-author">&mdash; Marcus T., London</span>
+        </div>
+        <!-- Review 3 -->
+        <div class="testimonial-slide">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"A perfect family dining experience. The children loved the gourmet burgers, and the service was warm and highly professional. We will definitely be back!"</p>
+          <span class="testimonial-author">&mdash; Sarah van der Merwe, Pretoria</span>
+        </div>
+      </div>
+
+      <div class="testimonial-dots"></div>
+    </div>
+  </section>
+
+  <!-- STORY PREVIEW & HOURS -->
+  <section class="section-padding container reveal">
+    <div class="story-split">
+      <div class="story-text">
+        <h2 class="section-title" style="text-align: left; font-size: 2.2rem;">Our Story</h2>
+        <p class="section-subtitle" style="text-align: left; margin-bottom: 25px;">Rooted in the Atlantic</p>
+        <p>Established at the iconic V&A Waterfront, Harbour Table blends the vibrant culinary heritage of South Africa with global fine dining standards. We work hand-in-hand with local fishermen to provide the freshest ocean treasures daily.</p>
+        <p>Our warm, family-friendly spaces combined with sophisticated dining formats ensure every plate served represents an celebration of flavor.</p>
+        
+        <!-- Hours Sub-Grid -->
+        <div class="story-hours-grid">
+          <div class="hours-day">Monday &ndash; Thursday</div>
+          <div class="hours-time">11:30 &ndash; 22:00</div>
+          <div class="hours-day">Friday &ndash; Saturday</div>
+          <div class="hours-time">11:00 &ndash; 23:00</div>
+          <div class="hours-day">Sunday</div>
+          <div class="hours-time">11:00 &ndash; 21:00</div>
+        </div>
+
+        <a href="about.html" class="btn btn-primary">Read Full Story</a>
+      </div>
+      <div class="story-img-frame">
+        <img src="images/interior.png" alt="Harbour Table Dining Space">
+      </div>
+    </div>
+  </section>
+
+  <!-- GOOGLE MAPS PLACEHOLDER -->
+  <section class="container reveal">
+    <div class="text-center">
+      <h2 class="section-title" style="font-size: 2rem;">Find Us at V&A Waterfront</h2>
+      <p class="section-subtitle" style="margin-bottom: 20px;">Cape Town, South Africa</p>
+    </div>
+    
+    <div class="map-container">
+      <div class="map-placeholder-svg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+          <rect width="800" height="400" fill="var(--bg-tertiary)" />
+          <!-- Mock Map Grid Lines -->
+          <line x1="100" y1="0" x2="100" y2="400" stroke="var(--border-color)" stroke-width="1"/>
+          <line x1="300" y1="0" x2="300" y2="400" stroke="var(--border-color)" stroke-width="1"/>
+          <line x1="500" y1="0" x2="500" y2="400" stroke="var(--border-color)" stroke-width="1"/>
+          <line x1="700" y1="0" x2="700" y2="400" stroke="var(--border-color)" stroke-width="1"/>
+          <line x1="0" y1="100" x2="800" y2="100" stroke="var(--border-color)" stroke-width="1"/>
+          <line x1="0" y1="250" x2="800" y2="250" stroke="var(--border-color)" stroke-width="1"/>
+          
+          <!-- Ocean Area -->
+          <path d="M 0 120 Q 200 80, 450 150 T 800 100 L 800 0 L 0 0 Z" fill="rgba(10, 25, 47, 0.08)" />
+          <text x="400" y="50" fill="var(--text-secondary)" font-size="14" opacity="0.6" letter-spacing="3">TABLE BAY HARBOUR</text>
+          
+          <!-- Wharf details -->
+          <rect x="250" y="140" width="150" height="120" rx="8" fill="var(--bg-secondary)" stroke="var(--border-color)" stroke-width="1.5" />
+          <text x="325" y="200" fill="var(--text-primary)" font-size="12" text-anchor="middle" font-weight="600">Victoria Wharf Mall</text>
+          
+          <!-- Harbour Table Marker Pin -->
+          <circle cx="500" cy="180" r="12" fill="var(--color-gold)" opacity="0.4" />
+          <circle cx="500" cy="180" r="6" fill="#0A192F" />
+          <path d="M 500 180 L 500 200" stroke="#0A192F" stroke-width="2"/>
+          <rect x="440" y="210" width="120" height="35" rx="5" fill="#0A192F" />
+          <text x="500" y="232" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">HARBOUR TABLE</text>
+          
+          <!-- V&A Waterfront label -->
+          <text x="150" y="320" fill="var(--text-secondary)" font-size="13" font-style="italic">V&A Waterfront Area</text>
+          <text x="500" y="350" fill="var(--text-secondary)" font-size="11" opacity="0.7">S3 Hosted Map Mock &bull; Coordinates: -33.9036, 18.4230</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM GALLERY PREVIEW -->
+  <section class="section-padding container reveal">
+    <div class="text-center">
+      <h2 class="section-title">Follow Us on Instagram</h2>
+      <p class="section-subtitle">@HarbourTable &bull; #HarbourTableWaterfront</p>
+    </div>
+    
+    <div class="insta-grid">
+      <a href="gallery.html" class="insta-item">
+        <img src="images/seafood_platter.png" alt="Instagram Post Seafood" class="insta-img">
+        <div class="insta-overlay">❤️ 1.2k</div>
+      </a>
+      <a href="gallery.html" class="insta-item">
+        <img src="images/wagyu_steak.png" alt="Instagram Post Steak" class="insta-img">
+        <div class="insta-overlay">❤️ 894</div>
+      </a>
+      <a href="gallery.html" class="insta-item">
+        <img src="images/gourmet_burger.png" alt="Instagram Post Burger" class="insta-img">
+        <div class="insta-overlay">❤️ 950</div>
+      </a>
+      <a href="gallery.html" class="insta-item">
+        <img src="images/cocktail.png" alt="Instagram Post Cocktail" class="insta-img">
+        <div class="insta-overlay">❤️ 1.1k</div>
+      </a>
+      <a href="gallery.html" class="insta-item">
+        <img src="images/dessert.png" alt="Instagram Post Dessert" class="insta-img">
+        <div class="insta-overlay">❤️ 760</div>
+      </a>
+      <a href="gallery.html" class="insta-item">
+        <img src="images/hero_bg.png" alt="Instagram Post Exterior" class="insta-img">
+        <div class="insta-overlay">❤️ 2.3k</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER SIGNUP -->
+  <section class="section-padding newsletter">
+    <div class="newsletter-content">
+      <h2 class="newsletter-title">Subscribe to the Table</h2>
+      <p class="newsletter-desc">Receive exclusive offers, culinary stories, and priority booking alerts for new seasonal menus directly to your inbox.</p>
+      
+      <form class="newsletter-form" id="newsletter-form">
+        <input type="email" placeholder="Enter your email address" class="newsletter-input" aria-label="Email for newsletter" required>
+        <button type="submit" class="btn btn-primary">Join Club</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- HOSTED ON AWS Section -->
+  <section class="section-padding reveal" style="background-color: var(--bg-tertiary);">
+    <div class="container text-center">
+      <h2 class="section-title">Hosted on AWS</h2>
+      <p class="section-subtitle">Modern serverless architecture</p>
+      
+      <div class="aws-hosting-grid">
+        <!-- Card 1 -->
+        <div class="info-card" style="border-top: 4px solid #FF9900;">
+          <span class="info-card-icon" style="color: #FF9900;">☁️</span>
+          <h3 class="info-card-title">Amazon S3 Hosting</h3>
+          <p class="info-card-text">This entire website is statically hosted inside an Amazon S3 Bucket, delivering lightning-fast load times and high efficiency with zero server overhead.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="info-card" style="border-top: 4px solid #FF9900;">
+          <span class="info-card-icon" style="color: #FF9900;">🔒</span>
+          <h3 class="info-card-title">Highly Available</h3>
+          <p class="info-card-text">Leverages Amazon's globally distributed cloud framework, ensuring 99.99% operational uptime and reliable access for our customers at all times.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="info-card" style="border-top: 4px solid #FF9900;">
+          <span class="info-card-icon" style="color: #FF9900;">📈</span>
+          <h3 class="info-card-title">Cloud Scalable</h3>
+          <p class="info-card-text">Built to handle sudden traffic surges seamlessly. The S3 serverless architecture auto-scales to support millions of restaurant visitors dynamically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-grid">
+      <!-- Col 1: Brand -->
+      <div class="footer-col-brand">
+        <a href="index.html" class="logo-wrapper" style="margin-bottom: 20px; display: inline-flex;">
+          <img src="images/logo.svg" alt="Harbour Table Logo" class="logo-img" style="width: 40px; height: 40px;">
+          <span class="logo-text" style="color: #FFFFFF;">Harbour<span>Table</span></span>
+        </a>
+        <p class="footer-desc">Exceptional seafood and premium grill dining at the edge of the Atlantic harbor. A Cape Town classic.</p>
+        <div class="footer-socials">
+          <!-- Instagram -->
+          <a href="#" class="social-link" aria-label="Instagram"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+          <!-- Facebook -->
+          <a href="#" class="social-link" aria-label="Facebook"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+          <!-- TikTok -->
+          <a href="#" class="social-link" aria-label="TikTok"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.02 1.63 4.18 1.12 1.25 2.7 2.05 4.34 2.25v3.83c-1.85-.05-3.66-.67-5.13-1.82-.08 2.53-.02 5.06-.05 7.59-.06 1.83-.54 3.73-1.69 5.17-1.43 1.76-3.76 2.77-6.04 2.76-2.27.02-4.57-.89-6.04-2.61-1.63-1.92-2.19-4.71-1.42-7.13.71-2.29 2.54-4.22 4.88-4.9 1.44-.42 2.97-.29 4.31.39v4.06c-.84-.52-1.89-.66-2.82-.36-1.12.35-2.02 1.34-2.26 2.49-.33 1.5.42 3.12 1.78 3.81 1.2.61 2.76.4 3.74-.46.74-.65 1.12-1.62 1.1-2.59.04-4.47.01-8.94.02-13.41-.01-.35.03-.71-.02-1.06z"/></svg></a>
+        </div>
+      </div>
+
+      <!-- Col 2: Navigation Links -->
+      <div>
+        <h4 class="footer-col-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="menu.html">Our Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="booking.html">Book a Table</a></li>
+          <li><a href="order.html">Order Online</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Contact Details -->
+      <div>
+        <h4 class="footer-col-title">Contact Us</h4>
+        <ul class="footer-contact">
+          <li>
+            <span>📍</span>
+            <span>Shop 102, Victoria Wharf,<br>V&A Waterfront, Cape Town</span>
+          </li>
+          <li>
+            <span>📞</span>
+            <span>+27 21 423 0000</span>
+          </li>
+          <li>
+            <span>✉️</span>
+            <span>info@harbourtable.co.za</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Menu QR Code -->
+      <div class="footer-qr-container">
+        <h4 class="footer-col-title">Digital Menu</h4>
+        <a href="menu.html" class="footer-qr-wrapper">
+          <img src="images/qrcode.svg" alt="Scan to View Digital Menu" class="footer-qr-img">
+        </a>
+        <span class="footer-qr-label">Scan to View Menu</span>
+      </div>
+    </div>
+
+    <!-- Bottom copyrights -->
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Harbour Table Seafood & Grill. All rights reserved. Cape Town, SA.</p>
+      <div class="footer-legal-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4.438l-10 10 1.406 1.406 8.594-8.594 8.594 8.594 1.406-1.406-10-10z"/></svg>
+  </button>
+
+  <!-- External Script -->
+  <script src="script.js"></script>
+</body>
+</html>
