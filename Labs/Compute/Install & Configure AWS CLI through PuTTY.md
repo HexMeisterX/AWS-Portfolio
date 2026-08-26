@@ -6,4 +6,5 @@
 - Access IAM by using the AWS CLI.
 
 <ins>What I did and what I learned:<ins>
-- SSH into PuTTY using .ppk file
+- SSH into Red Hat EC2 instance using PuTTY
+- 
