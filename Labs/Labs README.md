@@ -8,4 +8,3 @@ In each folder are a few labs under each category:
 - Install & Configure AWS CLI through PuTTY
 
 <ins>Networking:<ins>
-- 
