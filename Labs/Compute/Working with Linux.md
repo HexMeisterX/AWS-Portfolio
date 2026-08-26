@@ -11,7 +11,7 @@ In this lab, you use the AWS Command Line Interface (AWS CLI) to create an Amazo
 - Create an Amazon EC2 Auto Scaling launch configuration.
 - Configure scaling policies and create an Auto Scaling group to scale in and scale out the number of servers based on a variable load.
 
-<ins>What I did and learned:<ins>
+<ins>What I did and what I learned:<ins>
 - SSH into the labs pre-created EC2 Instance
 - Created an EC2 Instance via CLI
 
