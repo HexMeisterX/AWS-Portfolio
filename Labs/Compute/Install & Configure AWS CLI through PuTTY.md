@@ -10,6 +10,7 @@
 - Installed the AWS CLI on the Red Hat Instance
 
 <img width="618" height="104" alt="Screenshot 2026-09-01 020639" src="https://github.com/user-attachments/assets/f0334f37-6746-47d0-9eab-d0effb664cdc" />
+<br><br>
 
 - Signed into AWS account through CLI
 
