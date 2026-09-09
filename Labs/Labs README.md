@@ -1,6 +1,6 @@
 # <ins>**Labs**<ins>
 
-In each folder are a few labs under each category:
+Here some of my labs to see me in practise:
 
 <ins>Compute:<ins>
 - Python - Hello World
