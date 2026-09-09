@@ -4,7 +4,8 @@ Welcome to my AWS Portfolio where you can see all the proof of my certifications
 
 <ins>About me:<ins>
 
-As my CV would already explain, I worked with computers all my life.
+As my CV would already explain, I worked with computers all my life. "I'm my family's unpaid tech support" as my t-shirt would say in my profile picture.
+Many of the skills I learned are self-taught. I had to troubleshoot many different things over the years. 
 
 
 Who I am?
