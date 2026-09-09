@@ -3,6 +3,7 @@
 Welcome to my AWS Portfolio where you can see all the proof of my certifications and practical experiences.
 
 <ins>About me:<ins>
+
 As my CV would already explain, I worked with computers all my life.
 
 
