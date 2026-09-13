@@ -5,33 +5,28 @@ Welcome to my AWS Portfolio where you can see all the proof of my certifications
 <ins>About me:<ins>
 
 As my CV would already explain, I worked with computers all my life. "I'm my family's unpaid tech support" as my t-shirt would say in my profile picture.
-Many of the skills I learned are self-taught. I had to troubleshoot many different things over the years. 
+Many of the skills I learned are self-taught. I had to troubleshoot many different things over the years, the list would be too long to list here. But that is why I love working with computers. 
+The endless things they can do and the things you can learn.
+This course is a big stepping stone for me on my journey to success
+I'm learning a lot and still learning more
+I hope it never ends
 
+<ins>What you will find in this repo:<ins>
 
-Who I am?
+You will find all certifications and experiences during this course as well as README's in each file for specifics.
 
-What am I doing?
+Here is a breakdown:
 
-What you going to find in each folder?
+- Certifications & Badges have exactly that. My Certificates and badges I've acquired during this course.
+- Labs is showcasing my practical experiences
+- Projects is assignments I was tasked with during over a period of time, with a team or solo
 
-<ins>**My AWS Journey**<ins>
+For more specifics on the skills I've learned:
+- AWS Services
+- Linux (Bash)
+- Python
+- Cloud Security
 
-**Week 1** - We started with Cloud Computing basics, and also learning some of the many roles available in AWS
+Thank you for taking the time to read this intro
 
-**Week 2** - We learned what AWS is as a broad view. Topics we focused on was the Shared Responsibility Model, the Well Architected Framework and Support Plans. We also went in depth into Cloud Computing, which included touching on EC2
-
-**Week 3** - We went into EC2 in depth, this included Auto Scaling, and Billing & Pricing. We started our first labs and also started Linux
-
-**Week 4** - We were still doing Linux, we got to how to using Bash Shell, using SSH and SSH Client. We also started on AWS Lambda, with that we did Fargate, ECR and ECS. And lastly we did our first Knowledge Check Test
-
-**Week 5** - We started our first Project in this week. We also started S3 and AWS Backup and Hybrid services like EBS and SnowFamily
-
-**Week 6** - We started on Databases like Aurora and DynamoDB, this lead to also learning about ElastiCache and Timestream
-
-**Week 7** - We went through a lot of different services this week: Redshift; EMR; Athena; Quicksight; Glue; DMS; Kinesis. We did our first Mock Exam
-
-**Week 8** - This weeks focus was Networking and VPC. Went through other services like VPN, Transit Gateway, Direct Connect and PrivateLink
-
-**Week 9** - This week we went through Cloudfront, Global Accelerator and Route 53
-
-**Week 10** - We started with Security this week, AWS Cognito, IAM, Inspector, GuardDuty, Detective, Shield, WAF and Firewall Manager. Also monitoring services like CloudTrail and Cloudwatch. Network security was encryption, firewalls, network and system hardening
+Please enjoy parusing my Github!
