@@ -8,5 +8,6 @@ Here some of my labs to see me in practise:
 - Introduction to Amazon EC2
 - Troubleshooting an EC2 Instance
 - Working with Linux
+- Training a Machine Learning Model
 
 <ins>Networking:<ins>
