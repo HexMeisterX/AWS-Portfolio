@@ -26,6 +26,7 @@ For more specifics on the skills I've learned:
 - Linux (Bash)
 - Python
 - Cloud Security
+- Machine Learning (ML)
 
 Thank you for taking the time to read this intro
 
