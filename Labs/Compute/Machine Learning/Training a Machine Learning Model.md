@@ -1,4 +1,4 @@
-# <ins>Training a Machine Learning Model<ins>
+<ins>**Training a Machine Learning Model**<ins>
 
 <ins>Overview:<ins>
 
