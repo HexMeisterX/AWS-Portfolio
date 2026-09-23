@@ -10,4 +10,7 @@ In this lab, you will explor the biomechanical vertebral column dataset. You wil
 
 <ins>What I did and what I learned:<ins>
 - Open Amazon SageMaker AI in AWS Management Console
-- 
+- Go to Notebooks subsection and open the notebook provided for this lab in JupyterLab
+
+<img width="1361" height="426" alt="Screenshot 2026-09-23 020745" src="https://github.com/user-attachments/assets/446d5396-c600-433f-9bde-5da551e61f3b" />
+
