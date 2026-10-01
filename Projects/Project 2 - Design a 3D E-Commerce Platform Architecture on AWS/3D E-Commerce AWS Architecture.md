@@ -7,7 +7,7 @@ This project presents a robust, highly available, secure, and cost-optimized clo
 
 ## 1. System Architecture Diagram
 
-![3D E-Commerce AWS Architecture Diagram](Picture1.jpg)
+<img width="1430" height="929" alt="Picture1" src="https://github.com/user-attachments/assets/066aa001-b6f6-4764-936b-b5566aae69f5" />
 
 ### Architecture Overview Summary
 The proposed 3D e-commerce platform uses **Amazon Route 53** for domain management and **Amazon CloudFront** for global content delivery. **Amazon S3** stores 3D product models and other static assets. **AWS WAF** provides web application protection. Traffic to the application is distributed by an **Elastic Load Balancer (ELB)** across **Amazon EC2** instances in two Availability Zones (AZs). 
