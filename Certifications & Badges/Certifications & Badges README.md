@@ -25,3 +25,7 @@ List of all Certificates & Badges for a quick look:
 - Fundamentals of ML & AI
 - Introduction to Generative AI - Art of the Possible
 - No-Code ML & Generative AI on AWS
+- Optimizing Foundation Models
+- Planning a Generative AI Project
+- Responsible AI Practices
+- Security Compliance & Governance of AI Solutions
