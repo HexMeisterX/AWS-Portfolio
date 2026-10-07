@@ -5,6 +5,7 @@ List of all Certificates & Badges for a quick look:
 - AWS SimuLearn Cloud Economics
 - AWS SimuLearn Cloud First Steps
 - AWS SimuLearn Computing Solutions
+- AWS SimuLearn Core Security Concepts
 - AWS SimuLearn Database in Practise
 - AWS SimuLearn File Systems in the Cloud
 - AWS SimuLearn First NoSQL Database
