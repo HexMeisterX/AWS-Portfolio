@@ -4,7 +4,7 @@
 - Create a virtual private cloud (VPC)
 - Create subnets
 - Configure a security group
-- Launch an Amazon Elastic Compute Cloud (Amazon EC2) instance into a VPC
+- Launch an EC2 instance into a VPC
 
 <ins>What I did & what I learned:<ins>
 - Launched the AWS Management Console
