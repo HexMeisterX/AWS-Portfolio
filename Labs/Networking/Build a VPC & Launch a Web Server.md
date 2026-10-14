@@ -29,7 +29,8 @@
 <br><br>
 
 - Created and configure a VPC Security Group after that
-- Went back to EC2 instances and launched the Web Server
+- Went to EC2 and launched an Instance into the VPC
+- Opened the Web Server through the Instance
 
 <img width="938" height="347" alt="Screenshot 2026-10-14 015823" src="https://github.com/user-attachments/assets/631c7cb7-9972-4a21-8869-a9ff72de9528" />
 
