@@ -11,3 +11,4 @@ Here some of my labs to see me in practise:
 - Training a Machine Learning Model
 
 <ins>Networking:<ins>
+- Build a VPC & Launch a Web Server
