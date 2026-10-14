@@ -48,18 +48,14 @@ find /var/www/html -type f -exec chmod 0664 {} \;
 <br><br>
 
 - Created a nano file > projects.html
-- Pasted this in:
+- Pasted this into the file:
 
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Reece's re/Start Project Work</h1>
-<p>EC2 Instance Challenge Lab</p>
-</body>
-</html>
+<img width="978" height="522" alt="Screenshot 2026-10-14 032237" src="https://github.com/user-attachments/assets/884a8c2c-6a91-4f7c-95b9-6ef20228acfc" />
+<br><br>
 
 - Saved the file then used the Instance IP with the project.html name in my URL
 
 <img width="742" height="232" alt="Screenshot 2026-10-14 032018" src="https://github.com/user-attachments/assets/8b3935b9-a09f-437e-acdb-c84c1db97fa8" />
+<br><br>
 
 - Success!
