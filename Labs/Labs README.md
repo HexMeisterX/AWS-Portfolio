@@ -12,3 +12,4 @@ Here some of my labs to see me in practise:
 
 <ins>Networking:<ins>
 - Build a VPC & Launch a Web Server
+- Create a VPC & Run a Simple App in it
